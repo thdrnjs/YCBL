@@ -1,1 +1,1 @@
-# 野菜-Checkin
+# YC-Checkin
