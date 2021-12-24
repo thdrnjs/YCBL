@@ -2,11 +2,14 @@
 import logging
 import requests
 import os
+import time
 result = b'success\n'
 # url
 url = "http://www.yecaibuluo.com/portal/api/checkIn"
+# time
+timenow = int(time.time())
 # cookie
-cookie = os.environ["COOKIE"]
+cookie = "guest_token=b9e8ca0a62c347678688d84f4fdbae7a; Hm_lvt_2951eff0d8a1ff6008f24d727c6fe8dd=1640142843; Hm_lpvt_2951eff0d8a1ff6008f24d727c6fe8dd="+str(timenow)
 
 payload = "{\"token\":\"glados_network\"}"
 headers = {
