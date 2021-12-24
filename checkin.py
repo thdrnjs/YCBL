@@ -11,7 +11,7 @@ timenow = int(time.time())
 # cookie
 cookie = "guest_token=b9e8ca0a62c347678688d84f4fdbae7a; Hm_lvt_2951eff0d8a1ff6008f24d727c6fe8dd=1640142843; Hm_lpvt_2951eff0d8a1ff6008f24d727c6fe8dd="+str(timenow)
 
-payload = "{\"token\":\"glados_network\"}"
+payload = "{\"code\":\"glados_network\",\"email\":\"819034730\"}"
 headers = {
   'accept': 'application/json, text/plain, */*',
   'dnt': '1',
