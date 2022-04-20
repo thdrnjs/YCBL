@@ -9,9 +9,9 @@ url = "http://www.yecaibuluo.com/portal/api/checkIn"
 # time
 timenow = int(time.time())
 # cookie
-cookie = "guest_token=009f06eaa41f4672996d1d54c5a6f2f2; Hm_lvt_2951eff0d8a1ff6008f24d727c6fe8dd=1640142843,1640829173; Hm_lpvt_2951eff0d8a1ff6008f24d727c6fe8dd="+str(timenow)
+cookie = "guest_token=38451e2faf1542d39051c2529a361161; Hm_lvt_2951eff0d8a1ff6008f24d727c6fe8dd=1650446775; Hm_lpvt_2951eff0d8a1ff6008f24d727c6fe8dd="+str(timenow)
 
-payload = "{\"code\":\"glados_network\",\"email\":\"819034730\"}"
+payload = "{\"code\":\"\",\"email\":\"819034730\"}"
 headers = {
   'accept': 'application/json, text/plain, */*',
   'dnt': '1',
